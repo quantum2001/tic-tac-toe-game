@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Tic tac toe GAME</h2>
+    <p>Player <span id="player-turn">1</span> Turn</p>
+    <div id="p1-score">
+      <div>Player 1</div>
+      <div class="score">0</div>
+    </div>
+    <div id="p2-score">
+      <div class="score">0</div>
+      <div>Player 2</div>
+    </div>
+    <div id="winner">
+      <p id="winner-text"></p>
+      <button onclick="restartGame()">New Game</button>
+    </div>
+    <div id="game-screen">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <p>
+      Developed by
+      <a href="https://github.com/quantum2001" target="_blank">Samuel Lawal</a>
+    </p>
+  </body>
+  <script src="./app.js"></script>
+</html>
