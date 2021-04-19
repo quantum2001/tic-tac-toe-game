@@ -100,3 +100,20 @@ h2 {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 500px) {
+  #p1-score {
+  left: 0px;
+  height: 40px;
+  font-size: 16px;
+  width: 140px;
+  padding-left: 5px;
+}
+#p2-score {
+ right: 0px;
+  height: 40px;
+  font-size: 16px;
+  width: 140px;
+  padding-right: 5px;
+  
+}
+}
